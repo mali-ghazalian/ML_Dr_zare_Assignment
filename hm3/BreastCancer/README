@@ -1,0 +1,20 @@
+This is a modified version of a breast cancer data set [1] from the
+UCI Machine Learing repository. The attributes are as follows:
+
+   #  Attribute                     Domain
+   -- -----------------------------------------
+   1. Clump Thickness               low / high
+   2. Uniformity of Cell Size       low / high
+   3. Uniformity of Cell Shape      low / high
+   4. Marginal Adhesion             low / high
+   5. Single Epithelial Cell Size   low / high
+   6. Bare Nuclei                   low / high
+   7. Bland Chromatin               low / high
+   8. Normal Nucleoli               low / high
+   9. Mitoses                       low / high
+  10. Class                         (2 for benign, 4 for malignant)
+
+To load the data just run the script breast (breast.m).
+
+[1] O. L. Mangasarian and W. H. Wolberg: "Cancer diagnosis via linear 
+programming", SIAM News, Volume 23, Number 5, September 1990, pp 1 & 18.
